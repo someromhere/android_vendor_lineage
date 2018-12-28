@@ -19,13 +19,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.selinux=1
 
-# Default notification/alarm sounds
+# Default ringtone/notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.notification_sound=Popcorn.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
-
-# Default ringtone
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.ringtone=The_big_adventure.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
@@ -103,9 +100,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/lineage-power-whitelist.xml:system/etc/sysconfig/lineage-power-whitelist.xml
 
-# Include Lineage audio files
-include vendor/lineage/config/lineage_audio.mk
-
 ifneq ($(TARGET_DISABLE_LINEAGE_SDK), true)
 # Lineage SDK
 include vendor/lineage/config/lineage_sdk_common.mk
@@ -134,16 +128,9 @@ PRODUCT_PACKAGES += \
     Development \
     Profiles
 
-# Optional packages
-PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    PhotoTable \
-    Terminal
-
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
     LineageSettingsProvider \
-    LineageSetupWizard \
     Eleven \
     ExactCalculator \
     LockClock \
