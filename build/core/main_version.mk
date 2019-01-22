@@ -1,14 +1,14 @@
 # LineageOS System Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.lineage.version=$(LINEAGE_VERSION) \
-    ro.lineage.releasetype=$(LINEAGE_BUILDTYPE) \
-    ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.modversion=$(LINEAGE_VERSION) \
-    ro.lineagelegal.url=https://lineageos.org/legal
+    ro.lineage.version=SafeCallsOS1 \
+    ro.lineage.releasetype=SafeCallsOS2 \
+    ro.lineage.build.version=SafeCallsOS3 \
+    ro.modversion=SafeCallsOS4 \
+    ro.lineagelegal.url=http://www.safecalls.ru
 
 # LineageOS Platform Display Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION)
+    ro.lineage.display.version=SafeCallsOS5
 
 # LineageOS Platform SDK Version
 ADDITIONAL_BUILD_PROPERTIES += \
