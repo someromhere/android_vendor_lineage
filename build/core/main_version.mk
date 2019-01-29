@@ -1,8 +1,8 @@
 # LineageOS System Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.lineage.version=1 \
-    ro.lineage.releasetype=alpha \
-    ro.lineage.build.version=1.0 \
+    ro.lineage.version=SafeCallsOS1 \
+    ro.lineage.releasetype=SafeCallsOS2 \
+    ro.lineage.build.version=SafeCallsOS3 \
     ro.modversion=SafeCallsOS4 \
     ro.lineagelegal.url=http://www.safecalls.ru
 
