@@ -147,7 +147,6 @@ PRODUCT_PACKAGES += \
     Updater \
     WallpaperPicker \
     WeatherProvider \
-    
     Browser \
     Mail \
     Notes \
