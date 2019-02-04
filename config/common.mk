@@ -146,7 +146,15 @@ PRODUCT_PACKAGES += \
     TrebuchetQuickStep \
     Updater \
     WallpaperPicker \
-    WeatherProvider
+    WeatherProvider \
+    
+    Browser \
+    Mail \
+    Notes \
+    Store \
+    Telegram \
+    Weather \
+    Whatssapp
 
 # Exchange support
 PRODUCT_PACKAGES += \
