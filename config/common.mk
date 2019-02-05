@@ -153,6 +153,8 @@ PRODUCT_PACKAGES += \
     Telegram \
     Weather \
     Whatsapp \
+	Fdroid \
+    Gms \
     WeatherProvider
 
 # Exchange support
