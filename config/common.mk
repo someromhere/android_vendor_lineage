@@ -154,7 +154,8 @@ PRODUCT_PACKAGES += \
     Weather \
     Whatsapp \
 	Fdroid \
-    Gms \
+	Key \
+    Conv \
     WeatherProvider
 
 # Exchange support
