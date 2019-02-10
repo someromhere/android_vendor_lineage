@@ -287,8 +287,6 @@ alldefconfig:
 	env KCONFIG_NOTIMESTAMP=true \
 		 $(call make-kernel-target,alldefconfig)
 
-endif # FULL_KERNEL_BUILD
-
 TARGET_PREBUILT_DTBO = $(PRODUCT_OUT)/dtbo/arch/$(KERNEL_ARCH)/boot/dtbo.img
 $(TARGET_PREBUILT_DTBO): $(AVBTOOL)
 	echo -e ${CL_GRN}"Building DTBO.img"${CL_RST}
@@ -299,6 +297,8 @@ $(TARGET_PREBUILT_DTBO): $(AVBTOOL)
 		--partition_size $(BOARD_DTBOIMG_PARTITION_SIZE) \
 		--partition_name dtbo $(INTERNAL_AVB_DTBO_SIGNING_ARGS) \
 		$(BOARD_AVB_DTBO_ADD_HASH_FOOTER_ARGS)
+
+endif # FULL_KERNEL_BUILD
 
 ## Install it
 
