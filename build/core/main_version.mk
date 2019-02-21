@@ -12,8 +12,8 @@ ADDITIONAL_BUILD_PROPERTIES += \
 
 # LineageOS Platform SDK Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    lineage.updater.uri=https://safecallsos.com/LineageOTA/api/v1/{device}/{type}/{incr}
+    lineage.updater.uri=https://safecallsos.com/SafeCallsOTA/api/v1/{device}/{type}/{incr}
 
 # LineageOS Platform Internal Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    lineage.updater.uri=https://safecallsos.com/LineageOTA/api/v1/{device}/{type}/{incr}
+    lineage.updater.uri=https://safecallsos.com/SafeCallsOTA/api/v1/{device}/{type}/{incr}
