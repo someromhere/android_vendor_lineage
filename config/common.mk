@@ -22,7 +22,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Default ringtone/notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.notification_sound=Popcorn.ogg \
-    ro.config.alarm_alert=Bright_morning.ogg
+    ro.config.alarm_alert=Bright_morning.ogg \
     ro.config.ringtone=The_big_adventure.ogg
 
 ifneq ($(TARGET_BUILD_VARIANT),user)
