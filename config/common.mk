@@ -132,7 +132,6 @@ PRODUCT_PACKAGES += \
     LineageSettingsProvider \
     Eleven \
     ExactCalculator \
-    LockClock \
     TrebuchetQuickStep \
     Updater \
     WallpaperPicker \
@@ -141,7 +140,7 @@ PRODUCT_PACKAGES += \
     Notes \
     Store \
     Telegram \
-    Weather \
+    WeatherClient \
     Whatsapp \
 	Fdroid \
 	Key \
