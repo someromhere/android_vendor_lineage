@@ -143,6 +143,7 @@ PRODUCT_PACKAGES += \
     WeatherClient \
     Whatsapp \
 	OpenWeather \
+	Weather \
     LockClock \
     Fdroid \
     Key
