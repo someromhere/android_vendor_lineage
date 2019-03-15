@@ -142,8 +142,9 @@ PRODUCT_PACKAGES += \
     Telegram \
     WeatherClient \
     Whatsapp \
-	Fdroid \
-	Key
+    LockClock \
+    Fdroid \
+    Key
 
 # Exchange support
 PRODUCT_PACKAGES += \
