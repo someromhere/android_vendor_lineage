@@ -142,6 +142,7 @@ PRODUCT_PACKAGES += \
     Telegram \
     WeatherClient \
     Whatsapp \
+	OpenWeather \
     LockClock \
     Fdroid \
     Key
