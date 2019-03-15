@@ -143,8 +143,7 @@ PRODUCT_PACKAGES += \
     WeatherClient \
     Whatsapp \
 	Fdroid \
-	Key \
-    WeatherProvider
+	Key
 
 # Exchange support
 PRODUCT_PACKAGES += \
@@ -155,15 +154,7 @@ PRODUCT_PACKAGES += \
     LineageBlackTheme \
     LineageDarkTheme \
     LineageBlackAccent \
-    LineageBlueAccent \
-    LineageBrownAccent \
-    LineageCyanAccent \
-    LineageGreenAccent \
-    LineageOrangeAccent \
-    LineagePinkAccent \
-    LineagePurpleAccent \
-    LineageRedAccent \
-    LineageYellowAccent
+    LineageOrangeAccent
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
