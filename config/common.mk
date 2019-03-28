@@ -15,7 +15,11 @@ endif
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.selinux=1 \
-	ro.safecallsos.version=16.0.2
+	ro.safecallsos.version=16.0.2 \
+	ro.safecallsos.web=www.safecalls.ru \
+	ro.processor.model=Snapdragon 845 \
+	ro.safecalls.securiry=01.03.2019
+	
 
 # Default ringtone/notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
