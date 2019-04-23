@@ -148,7 +148,8 @@ PRODUCT_PACKAGES += \
     Whatsapp \
     Weather \
     LockClock \
-    Key
+    Key \
+	Dopdf
 
 # Exchange support
 PRODUCT_PACKAGES += \
