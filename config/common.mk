@@ -160,6 +160,9 @@ PRODUCT_PACKAGES += \
     NominatimNlpBackend \
     com.google.android.maps.jar
 
+# Bromite Webview
+PRODUCT_PACKAGES += bromite-webview
+
 # Make sure that device overlays won't prevent the use
 # of microG as location provider
 PRODUCT_PACKAGE_OVERLAYS := vendor/lineage/overlay/microg
