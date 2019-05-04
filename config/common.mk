@@ -16,7 +16,7 @@ endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.selinux=1 \
     ro.safecallsos.version=16.0.2 \
-    ro.safecallsos.web=www.SafeCallsOS.com \
+    ro.safecallsos.web=SafeCallsOS.com \
     ro.processor.model=Snapdragon-845 \
     ro.safecalls.phone=SC.Phone
 
