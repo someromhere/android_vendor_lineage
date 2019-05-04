@@ -151,6 +151,15 @@ PRODUCT_PACKAGES += \
     Key \
 	Dopdf
 
+# microG packages
+PRODUCT_PACKAGES += \
+    GmsCore \
+    GsfProxy \
+    FakeStore \
+    MozillaNlpBackend \
+    NominatimNlpBackend \
+    com.google.android.maps.jar
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
