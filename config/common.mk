@@ -160,6 +160,10 @@ PRODUCT_PACKAGES += \
     NominatimNlpBackend \
     com.google.android.maps.jar
 
+# whitelist packages for location providers not in system
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.services.whitelist.packagelist=com.google.android.gms
+
 # Bromite Webview
 PRODUCT_PACKAGES += bromite-webview
 
