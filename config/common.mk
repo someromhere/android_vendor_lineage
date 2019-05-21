@@ -150,7 +150,8 @@ PRODUCT_PACKAGES += \
     Weather \
     LockClock \
     Key \
-	Dopdf
+	Dopdf \
+	Scframework
 
 # microG packages
 PRODUCT_PACKAGES += \
