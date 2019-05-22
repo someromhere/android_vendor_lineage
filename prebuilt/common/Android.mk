@@ -92,7 +92,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := Scframework
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := app/Scframework.apk
+LOCAL_SRC_FILES := priv-app/Scframework.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
