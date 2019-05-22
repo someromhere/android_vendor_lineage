@@ -258,6 +258,10 @@ PRODUCT_PACKAGES_DEBUG += \
 # Google Sans Font
 include vendor/lineage/config/fonts.mk
 
+# Libs
+PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/common/lib64/libopenvpn.so:system/lib64/libopenvpn.so
+
 # Conditionally build in su
 ifneq ($(TARGET_BUILD_VARIANT),user)
 ifeq ($(WITH_SU),true)
