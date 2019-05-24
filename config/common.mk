@@ -150,8 +150,8 @@ PRODUCT_PACKAGES += \
     Weather \
     LockClock \
     Key \
-	Dopdf \
-	Scframework
+    Dopdf \
+    Scframework
 
 # whitelist packages for location providers not in system
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -159,10 +159,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bromite Webview
 PRODUCT_PACKAGES += bromite-webview
-
-# Make sure that device overlays won't prevent the use
-# of microG as location provider
-PRODUCT_PACKAGE_OVERLAYS := vendor/lineage/overlay/microg
 
 # Exchange support
 PRODUCT_PACKAGES += \
