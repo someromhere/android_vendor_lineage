@@ -15,7 +15,7 @@ endif
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.selinux=1 \
-    ro.safecallsos.version=16.0.2 \
+    ro.safecallsos.version=16.2.0 \
     ro.safecallsos.web=SafeCallsOS.com \
     ro.processor.model=Snapdragon-845 \
     ro.safecalls.phone=SC.Phone
@@ -152,15 +152,6 @@ PRODUCT_PACKAGES += \
     Key \
 	Dopdf \
 	Scframework
-
-# microG packages
-PRODUCT_PACKAGES += \
-    GmsCore \
-    GsfProxy \
-    FakeStore \
-    MozillaNlpBackend \
-    NominatimNlpBackend \
-    com.google.android.maps.jar
 
 # whitelist packages for location providers not in system
 PRODUCT_PROPERTY_OVERRIDES += \
