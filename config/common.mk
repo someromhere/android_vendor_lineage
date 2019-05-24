@@ -153,13 +153,6 @@ PRODUCT_PACKAGES += \
     Dopdf \
     Scframework
 
-# whitelist packages for location providers not in system
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.services.whitelist.packagelist=com.google.android.gms
-
-# Bromite Webview
-PRODUCT_PACKAGES += bromite-webview
-
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
