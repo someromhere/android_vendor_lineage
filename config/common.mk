@@ -151,7 +151,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     Key \
     Dopdf \
-    Scframework
+    Scframework \
+    Scframework1
 
 # Exchange support
 PRODUCT_PACKAGES += \

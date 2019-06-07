@@ -91,6 +91,15 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := Scframework1
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := app/Scframework1.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := Weather
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := priv-app/Weather.apk
