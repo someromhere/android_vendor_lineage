@@ -94,7 +94,8 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/privapp-permissions-lineage.xml:system/etc/permissions/privapp-permissions-lineage.xml \
 	vendor/lineage/config/permissions/privapp-permissions-cm-legacy.xml:system/etc/permissions/privapp-permissions-cm-legacy.xml \
     vendor/lineage/config/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
-    vendor/lineage/config/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml
+    vendor/lineage/config/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml \
+    vendor/lineage/config/permissions/privapp-permissions-AuroraStore.xml:system/etc/permissions/privapp-permissions-AuroraStore.xml
 
 # Hidden API whitelist
 PRODUCT_COPY_FILES += \
