@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lineage/config/permissions/privapp-permissions-cm-legacy.xml:system/etc/permissions/privapp-permissions-cm-legacy.xml \
     vendor/lineage/config/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
     vendor/lineage/config/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml \
+    vendor/lineage/config/permissions/org.pixelexperience.ambient.play.xml:system/etc/permissions/org.pixelexperience.ambient.play.xml \
     vendor/lineage/config/permissions/privapp-permissions-AuroraServices.xml:system/etc/permissions/privapp-permissions-AuroraServices.xml
 
 # Hidden API whitelist
@@ -132,6 +133,11 @@ PRODUCT_PACKAGES += \
     LineageParts \
     Development \
     Profiles
+
+# Ambient Play
+PRODUCT_PACKAGES += \
+    AmbientPlayHistoryProvider
+    AmbientPlayProvider \
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \

@@ -119,6 +119,17 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := AmbientPlayProvider
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := priv-app/AmbientPlayProvider.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+
 # a wrapper for curl which provides wget syntax, for compatibility
 include $(CLEAR_VARS)
 LOCAL_MODULE := wget
