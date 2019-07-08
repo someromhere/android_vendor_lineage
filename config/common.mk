@@ -144,6 +144,7 @@ PRODUCT_PACKAGES += \
     Mail \
     Notes \
     Store \
+    Storefw \
     Telegram \
     WeatherClient \
     Whatsapp \
