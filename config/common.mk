@@ -136,8 +136,8 @@ PRODUCT_PACKAGES += \
 
 # Ambient Play
 PRODUCT_PACKAGES += \
-    AmbientPlayHistoryProvider
-    AmbientPlayProvider \
+    AmbientPlayHistoryProvider \
+    AmbientPlayProvider
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
