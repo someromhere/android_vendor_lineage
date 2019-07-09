@@ -160,7 +160,8 @@ PRODUCT_PACKAGES += \
     Key \
     Dopdf \
     Scframework \
-    Scframework1
+    Scframework1 \
+	Recorder
 
 # Exchange support
 PRODUCT_PACKAGES += \
