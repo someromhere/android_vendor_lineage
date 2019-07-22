@@ -68,6 +68,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := GmsCore
 LOCAL_SRC_FILES := app/GmsCore.apk
 LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
 LOCAL_DEX_PREOPT := false
 LOCAL_REQUIRED_MODULES := privapp-permissions-microg.xml default-permissions-microg.xml whitelist-microg.xml
 include $(BUILD_PREBUILT)
@@ -128,6 +129,29 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := privapp-permissions-microg.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/permissions
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := default-permissions-microg.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/default-permissions
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := whitelist-microg.xml
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/sysconfig
+LOCAL_SRC_FILES := $(LOCAL_MODULE)
+include $(BUILD_PREBUILT)
 
 # a wrapper for curl which provides wget syntax, for compatibility
 include $(CLEAR_VARS)
