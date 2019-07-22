@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<exceptions>
+    <exception package="com.android.vending">
+        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="true"/>
+    </exception>
+    <exception package="com.google.android.gms">
+        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" fixed="true"/>
+    </exception>
+</exceptions>

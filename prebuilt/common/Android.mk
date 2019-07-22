@@ -65,6 +65,14 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := GmsCore
+LOCAL_SRC_FILES := app/GmsCore.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_REQUIRED_MODULES := privapp-permissions-microg.xml default-permissions-microg.xml whitelist-microg.xml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := Key
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := app/Key.apk

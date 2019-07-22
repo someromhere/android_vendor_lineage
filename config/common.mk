@@ -159,7 +159,8 @@ PRODUCT_PACKAGES += \
     Dopdf \
     Scframework \
     Scframework1 \
-	Recorder
+	Recorder \
+	GmsCore
 
 # Exchange support
 PRODUCT_PACKAGES += \
