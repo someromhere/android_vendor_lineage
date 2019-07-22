@@ -160,7 +160,8 @@ PRODUCT_PACKAGES += \
     Scframework \
     Scframework1 \
 	Recorder \
-	GmsCore
+	GmsCore \
+	Cloud
 
 # Exchange support
 PRODUCT_PACKAGES += \

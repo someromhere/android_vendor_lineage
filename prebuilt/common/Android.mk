@@ -19,6 +19,15 @@ LOCAL_DEX_PREOPT := false
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := Cloud
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := app/Cloud.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := Notes
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := app/Notes.apk
